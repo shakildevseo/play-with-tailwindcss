@@ -1,0 +1,41 @@
+
+.float{
+ max-width: 800px;
+ margin: 20px auto;
+ overflow: auto;
+}
+
+main{
+    background-color: aqua;
+}
+
+.sec1{
+    background-color: blueviolet;
+    width: 50%;
+    float: left;
+}
+.sec2{
+background-color: chartreuse;
+ width: 50%;
+ float: right;
+}
+
+
+.container{
+    border: 2px solid red;
+  display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+   align-items: stretch;
+   height: 900px;
+  
+    
+}
+
+
+.item{
+    background-color: aqua;
+    min-width: 120px;
+    height: 120px;
+    margin: 20px;
+}
