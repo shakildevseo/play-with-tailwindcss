@@ -1,34 +1,29 @@
+
 .container{
+    width: 600px;
     display: flex;
-    flex-wrap: wrap;
-    max-width: 100%; 
-    flex-direction: column;
-  
+    border: 1px solid black;
     
+
 }
 
 
 .item{
-    border: 1px solid red;
     background-color: aquamarine;
     margin: 5px;
-      flex-grow: 1;
-
+    flex-shrink: 1;
 }
+
 
 .one{
-    flex-basis: 200px;
+    min-width: 300px;
 }
-
 .two{
-    flex-basis: 150px;
+        min-width:  300px;
 
 }
 
 .three{
-    flex-basis: 100px;
-}
-.four{
-    flex-basis: 300px;
-}
+        min-width: 300px;
 
+}
